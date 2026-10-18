@@ -1,0 +1,68 @@
+:root {
+  /* Brand palette (STYLE.md §2) */
+  --color-forest-olive: #3b4b1c;
+  --color-soft-white: #f3f5ef;
+  --color-river-blue: #207697;
+  --color-earth-gold: #bf8620;
+  --color-deep-water: #0a5470;
+  --color-sage-olive: #7f8952;
+  --color-earth-brown: #77592f;
+  --color-sand-beige: #d1c493;
+  --color-water-mist: #8fb5b5;
+  --color-deep-earth: #301907;
+
+  /* Semantic colors */
+  --color-background: var(--color-soft-white);
+  --color-text: var(--color-deep-earth);
+  --color-heading: var(--color-forest-olive);
+  --color-primary: var(--color-forest-olive);
+  --color-primary-hover: var(--color-sage-olive);
+  --color-secondary: var(--color-deep-water);
+  --color-link: var(--color-river-blue);
+  --color-accent: var(--color-earth-gold);
+  --color-surface: #ffffff;
+  --color-surface-muted: var(--color-sand-beige);
+  --color-water-surface: var(--color-water-mist);
+  --color-border: var(--color-sage-olive);
+  --color-focus: var(--color-earth-gold);
+  --color-danger: var(--color-earth-brown);
+
+  /* Derived overlays */
+  --border-subtle: rgba(127, 137, 82, 0.35);
+  --overlay-dark: rgba(48, 25, 7, 0.55);
+  --overlay-darker: rgba(48, 25, 7, 0.75);
+  --overlay-light: rgba(243, 245, 239, 0.9);
+
+  /* Typography */
+  --font-primary: "Outfit", "DM Sans", sans-serif;
+  --font-body: "DM Sans", "Outfit", sans-serif;
+  --text-caption: 0.875rem;
+  --text-body-sm: 1rem;
+  --text-body-lg: 1.1875rem;
+  --text-subheading: 1.625rem;
+  --text-heading-sm: 1.875rem;
+  --text-heading: 2.25rem;
+  --text-heading-lg: 2.875rem;
+  --text-display: 4.25rem;
+  --text-display-xl: 4.6875rem;
+  --leading-body: 1.6;
+  --leading-heading: 1.1;
+
+  /* Layout */
+  --spacing-unit: 4px;
+  --page-max-width: 1200px;
+  --page-gutter: clamp(1rem, 4vw, 2.5rem);
+  --section-gap: clamp(4rem, 7vw, 6rem);
+  --card-padding: clamp(1.5rem, 3vw, 1.875rem);
+  --header-height: 4.5rem;
+
+  /* Shapes */
+  --radius-sm: 2px;
+  --radius-card: 4px;
+  --radius-button: 3px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+}

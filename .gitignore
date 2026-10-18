@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.codegraph/
+.env
+.env.*
+*.log
+_site/

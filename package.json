@@ -1,0 +1,12 @@
+{
+  "name": "fundacion-choyinko",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web institucional de Fundación Choyinko",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "pages": "node scripts/pages.mjs",
+    "serve": "npx --yes serve . -l 3000"
+  }
+}
